@@ -31,11 +31,21 @@ main{
 header{
     background-color: white;
     grid-area: hd;
+    border-radius: 2rem 2rem 0 0;
+    text-align: center;
 }
 nav{
-    background-color: white;
+    background-color: red;
     grid-area: nv;
     gap: 0rem;
+    transform: translateY(-16px);
+    border-radius: 0 0 0.5rem 0.5rem;
+    display: flex;
+
+
+}
+.nav a{
+    padding: 0.5rem;
 }
 section{
     background-color: white;
